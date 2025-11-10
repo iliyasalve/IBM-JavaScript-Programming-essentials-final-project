@@ -43,7 +43,7 @@ const searchError = () => {
   result.innerHTML = `<p class="notfound">Sorry we can't find your search</p>`;
 };
 
-fetch("travelrecommendation.json")
+fetch("travel_Recommendation_api.json")
   .then((res) => res.json())
   .then((data) => {
     const search = () => {
